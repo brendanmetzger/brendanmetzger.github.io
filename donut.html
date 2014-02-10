@@ -10,6 +10,9 @@
     </style>
   </head>
   <body>
+    <h1>Progress Donuts</h1>
+    <p>If you remove the svg mask, they become progress pies - handy if you need more alliteration. See the whole <a href="draw/progress/donut.js">donut.js script here</a>... it's not much.</p>
+    <hr />
     <div id="exhibitA">
       <label>Set Progress</label>
       <input type="range" step=".01" min="0" max="2" onchange="a.update(this.value);" value="0"/>
@@ -37,7 +40,7 @@
     <script type="text/javascript" charset="utf-8">
       var a = new ProgressDonut(document.getElementById('exhibitA'), 50, 'fill:#920005');
       
-      var b = new ProgressDonut(document.getElementById('exhibitB'), 150, 'fill:#920005');
+      var b = new ProgressDonut(document.getElementById('exhibitB'), 100, 'fill:#920005');
       var btext = b.createElement('text', {
         x: 0,
         y: 50
