@@ -3,4 +3,4 @@
 	url = https://github.com/brendanmetzger/draw.git
 [submodule "MediaHubAPI"]
 	path = MediaHubAPI
-	url = git@github.com:brendanmetzger/MediaHubAPI.git
+	url = https://github.com/brendanmetzger/MediaHubAPI.git
